@@ -1,4 +1,4 @@
-export class BookList {
+export default class BookList {
   constructor(bookList) {
     this.bookList = bookList;
   }
@@ -26,4 +26,3 @@ export class BookList {
     this.bookList = newArray;
   }
 }
-  

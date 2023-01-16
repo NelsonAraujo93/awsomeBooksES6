@@ -1,3 +1,8 @@
+export const clearInput = (form) => {
+  form[0].value = '';
+  form[1].value = '';
+};
+
 export const renderAddSection = (mainContainer, Book, booksList) => {
   mainContainer.innerHTML = '';
   const addSection = document.createElement('section');
@@ -51,10 +56,3 @@ export const renderAddSection = (mainContainer, Book, booksList) => {
     clearInput(form);
   });
 };
-
-
-const clearInput = (form) => {
-  form[0].value = '';
-  form[1].value = '';
-}
-  
