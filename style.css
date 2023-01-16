@@ -1,0 +1,224 @@
+@font-face {
+  font-family: 'Jua-Regular';
+  src: url('./assets/fonts/Jua-Regular.ttf');
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Jua-Regular', sans-serif;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  max-width: 1300px;
+  justify-content: center;
+}
+
+.heading {
+  padding-bottom: 10px;
+  font-size: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.addbook {
+  padding-left: 10px;
+  line-height: 15px;
+  padding-right: 10px;
+}
+
+.addbook:nth-child(odd) {
+  background-color: #d6d6d6;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  gap: 5px;
+}
+
+.add {
+  border: 2px solid #000;
+  box-shadow: 1px 2px 2px;
+  padding: 1px 5px;
+  display: flex;
+  align-self: flex-end;
+}
+
+.remove {
+  border: 2px solid #000;
+  box-shadow: 1px 2px 2px;
+  padding: 1px 4px;
+}
+
+#form input {
+  padding: 5px;
+  border: solid #000 2px;
+  border-radius: 1px;
+  box-sizing: border-box;
+  font-family: 'Jua-Regular', sans-serif;
+  width: 100%;
+}
+
+#form .heading {
+  margin-top: 0;
+}
+
+button {
+  font-family: 'Jua-Regular', sans-serif;
+}
+
+.book {
+  min-height: 30px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  align-items: center;
+}
+
+.showbooks {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+#books-list {
+  border: 2px solid #444;
+  max-width: 860px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+img.underline {
+  max-width: 156px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid black;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.navlist {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.navitem {
+  border-left: 2px solid black;
+}
+
+.navitem:first-child {
+  border-left: unset;
+}
+
+.navlink {
+  font-size: 16px;
+  font-family: 'Jua-Regular', sans-serif;
+  padding: 12px;
+  text-decoration: none;
+  color: initial;
+}
+
+.navlink1 {
+  font-size: 30px;
+  font-family: 'Jua-Regular', sans-serif;
+  padding: 12px;
+  text-decoration: none;
+  color: initial;
+}
+
+.navlink:active {
+  color: purple;
+}
+
+.date {
+  text-align: right;
+  padding: 15px 0;
+  display: flex;
+  align-self: flex-end;
+}
+
+.main {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo,
+.nav {
+  padding-left: 2%;
+}
+
+.contactlist {
+  list-style-type: none;
+}
+
+footer {
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin: 10px;
+  box-sizing: border-box;
+  max-width: 1300px;
+  height: 66px;
+}
+
+.contactsection {
+  margin-bottom: 10%;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+a.navlink:hover {
+  color: rgb(0, 58, 139);
+}
+
+.active a.navlink {
+  color: rgb(0, 58, 139);
+}
+
+section {
+  display: flex;
+  width: 100%;
+  max-width: 1300px;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
