@@ -35,7 +35,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Module 1 Capstone Project] <a name="about-project"></a>
+# 📖 [Aswome Books ES6] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
