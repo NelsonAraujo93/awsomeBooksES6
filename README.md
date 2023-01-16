@@ -44,9 +44,6 @@
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -63,20 +60,16 @@
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
 - **[Dynamicly]**
 - **[Git flow]**
 - **[Good HTML, JS and CSS practices]**
+- **[ES6, modules]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://nelsonaraujo93.github.io/awsomeBooksES6/)
 
@@ -86,83 +79,30 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- A computer with node.js.
+- Internet acces.
 
 ### Setup
 
-In order to run this project you need: [https://github.com/NelsonAraujo93/awsomeBooksES6]
+In order to run this project you need: clone this repo [https://github.com/NelsonAraujo93/awsomeBooksES6]
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone https://github.com/NelsonAraujo93/awsomeBooksES6
-```
---->
 
 ### Install
 
-Install this project with:
+After cloning the repo you need to install de dependencies.
+- Run this in the project folder (npm install).
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
-To run the project, execute the following command:
+Once the project is installed you only need to open the index.html file on your browser.
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
